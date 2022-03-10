@@ -1,0 +1,184 @@
+@charset "UTF-8";
+body {
+    color: #282828;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    font-size: 25px;
+    background-image: url(bokeh.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 4050px;
+}
+	
+#container {
+    width: 1280px;
+    height: 3682px;
+    background-color: white;
+    margin: auto;
+}
+ul {
+    min-height: 23px;
+}
+
+	/*Float the Aside so it displays next to Main*/
+aside {
+    width: 151px;
+    background-color: #404040;
+    float: left;
+    height: 3340px;
+}
+
+header {
+    width: 1280px;
+    height: 250px;
+    background-color: #FFFFFF;
+    background-image: url(header.jpg);
+    background-repeat: no-repeat;
+    margin: 50px 0px 0px 0px;
+    background-position: 42% 0%;
+}
+
+/*Float the Main so it shows up next to the Aside. Reduce width by 150px so they both line header.*/
+main {
+    width: 1280px;
+    height:250px;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    float: left;
+}
+
+/*Clear the float so the footer shows up in the right place again.*/
+footer {
+    width: 993px;
+    height: 50px;
+    background-color: #404040;
+    float: left;
+    clear: left;
+    margin-left: 151px;
+    margin-top: -12px;
+    padding-right: 136px;
+}
+
+h1 {
+    color: #6BE7FE;
+	font-family: liebedoris,sans-serif;
+	font-weight: 700;
+	font-style: italic;
+	font-size: 24pt;
+}
+
+p{
+    font-family: canada-type-gibson,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    display: inline;
+    padding-left: 21px;
+    }
+h3 {
+    font-size: 12pt;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    color: #FFFFFF;
+}
+p {
+    font-size: 13pt;
+    margin-left: 47px;
+    font-family: canada-type-gibson, neonoir, "sans-serif;";
+}
+article {
+    margin-bottom: 30px;
+}
+main {
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    width: 598px;
+    height: auto;
+    clear: none;
+}
+h1 {
+    margin-left: 0px;
+    padding-left: 28px;
+}
+img {
+    float: right;
+    font-family: canada-type-gibson, neonoir, "sans-serif;";
+    background-repeat: repeat;
+}
+ol {
+}
+
+.floatLeft {
+    float: left;
+    padding-left: 0px;
+    padding-right: 8px;
+}
+nav {
+    width: 768px;
+    height: 50px;
+    margin-bottom: 43px;
+    margin-left: 235px;
+}
+#container nav li {
+	display: block;
+	list-style-type: none;
+	float: left;
+	margin: 0px 60px 0px 0px;
+	width: 60px;
+	font-family: neonoir, sans-serif;
+	font-size: 18pt;
+	padding-top: 8px;
+	padding-right: 8px;
+	padding-bottom: 8px;
+	padding-left: 8px;
+}
+#container nav ul {
+    margin: auto;
+    width: 565px;
+}
+
+nav a:link {
+    color: #6BE7FF;
+	padding: 10px;
+    text-decoration: none;
+}
+nav a:visited {
+    color: #690DA7;
+    text-decoration: none;
+}
+nav a:hover {
+    color: #FFFFFF;
+    text-decoration: none;
+	background-color: #6BE7FF;
+	padding: 10px;
+	border-radius: 20px;
+}
+nav a:active {
+    color: #181818;
+    text-decoration: none;
+}
+input {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.submit_btn {
+    width: 170px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #6BE7FF;
+    color: #FFFFFF;
+    font-size: 17px;
+   
+}
+
+
+.submit_btn:hover {
+	 -webkit-box-shadow: 6px 6px 35px 1px #010101;
+    box-shadow: 6px 6px 35px 1px #010101;
+}
